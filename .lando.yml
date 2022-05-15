@@ -1,0 +1,8 @@
+name: emdicode-wp
+recipe: wordpress
+config:
+  webroot: .
+  php: '7.4'
+  via: apache
+  database: mysql:8.0
+  xdebug: false
